@@ -1,7 +1,6 @@
-$(function(){
-    $('.phone_button').click(function(){
-        ($(this).data('id') === '@')
-        ? alert($('#number_input').text() + 'にかけます。')
-        : $('#number_input').text($('#number_input').text() + $(this).data('id'));
-    });
+$(function () {
+  $("#button_one").click(function () {
+    let one = $("#number_input").text();
+    $("#number_input").text(one + "1");
+  });
 });
