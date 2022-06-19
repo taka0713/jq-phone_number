@@ -1,7 +1,7 @@
 $(function () {
   $(".phone_button").click(function () {
     let one = $("#number_input").text();
-    $(this).text(one + data?1:@;);
+    $(this).text(one + );
   });
 
   // $("#button_two").click(function () {
