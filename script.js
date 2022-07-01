@@ -4,7 +4,7 @@ $(function () {
       let number_input = $("#number_input").text();
       $("#number_input").text(number_input + $(this).data("id"));
     } else {
-      alert($("#number_input").text() + "に電話をかけます。");
+      alert($("#number_input").text() + "に電話をかけます");
     }
   });
 });
